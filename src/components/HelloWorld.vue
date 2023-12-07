@@ -1,5 +1,6 @@
 <template>
    <v-card>
+    <div class="pa-10 text-h3">管理员数据，非管理员不可编辑</div>
       <v-data-table
           fixed-header
           :items-per-page="tableData.length"
